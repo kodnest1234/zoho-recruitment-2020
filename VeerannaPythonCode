@@ -1,0 +1,6 @@
+a=input()
+z=len(a)-1
+a=a[len(a)//2:]+a[:len(a)//2]
+for j in range(len(a)):
+    print((z*' ')+a[:j+1])
+    z-=1
